@@ -1,0 +1,4 @@
+export default {
+	ADD_CATEGORY: 'ADD_CATEGORY',
+	DElETE_CATEGORY: 'DElETE_CATEGORY'
+};

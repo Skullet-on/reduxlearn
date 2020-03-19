@@ -1,0 +1,4 @@
+export default {
+	ADD_ANSWER: 'ADD_ANSWER',
+	DELETE_ANSWER: 'DELETE_ANSWER'
+};

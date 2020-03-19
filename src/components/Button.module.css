@@ -1,0 +1,36 @@
+.button {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-family: inherit;
+    font-size: 16px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #1d49aa;
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.button[disabled] {
+    color: #d2d5db;
+    background: #6c7589;
+    cursor: not-allowed;
+}
+
+.button svg {
+    display: inline-block;
+    vertical-align: middle;
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.25rem;
+}
